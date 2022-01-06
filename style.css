@@ -1,0 +1,37 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    font-size: 70px;
+}
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 10px;
+}
+.half-width img{
+    width: 85%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 15px 50px;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+#heading-area{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+    border-radius: 50px;
+}
+p{
+    font-size: 18px;
+    padding: 15px;
+}
